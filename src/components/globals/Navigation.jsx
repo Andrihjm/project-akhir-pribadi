@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../styles/navigation.css";
 
 const Navigation = () => {
   const [isOpenMenuNavbar, setIsOpenMenuNavbar] = useState(false);

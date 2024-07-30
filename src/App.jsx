@@ -1,7 +1,11 @@
+import Layout from "./Layouts/Layout";
+
 const App = () => {
   return (
-    <div className="text-3xl">App</div>
-  )
-}
+    <>
+      <Layout />
+    </>
+  );
+};
 
-export default App
+export default App;
