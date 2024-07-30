@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 body {
-  background: #000;
+  background: #141414;
   color: #fff;
+}
+
+.background-primary {
+  background: linear-gradient(to right, #0f0f0f, #ff0000, #0f0f0f);
+}
+
+.gradient-primary {
+  border-right-width: 2px;
+  border-image: linear-gradient(to bottom, #0f0f0f, #ff0000, #0f0f0f) 1;
 }
